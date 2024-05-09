@@ -1,5 +1,8 @@
 # Healthcare_analytics
 
+# 🔆 Introduction
+
+The healthcare services at UC Berkeley is undergoing a significant transformation with the integration of data analytics and technology. This project aims to leverage data analytics and optimization techniques to improve the efficiency and effectiveness of healthcare systems, specifically focusing on appointment scheduling and queue management within a healthcare facility.
 
 ```mermaid
 flowchart LR
@@ -17,6 +20,19 @@ flowchart LR
 ```
 
 
+# 🥳 Features
+
+## Analysis and Methodology
+
+1. Data Preparation: University Health Services (UHS) statistics originated from [fenghaolin/HanguData (github.com)](https://github.com/fenghaolin/HanguData)
+2. Exploratory Data Analysis (EDA)
+3. Feature Importance Analysis
+4. Model Building
+5. Queuing Simulation and Algorithms
+6. System Architecture Design
+
+This table summarizes the average waiting time and average system time for each scheduling algorithm.
+
 | Scheduling Algorithm | Average Waiting Time | Average System Time |
 |----------------------|----------------------|---------------------|
 | FCFS                 | 7.53                 | 12.41               |
@@ -25,44 +41,8 @@ flowchart LR
 | Slack Time Remaining | 26.78                | 31.67               |
 | Critical Ratio       | 67.36                | 72.24               |
 
-This table summarizes the average waiting time and average system time for each scheduling algorithm.
 
-
----
-
-If the focus is specifically on developing an online portal for scheduling appointments within a healthcare system, the budget allocation can be significantly streamlined. Below is a simplified budget table for this specific project, focusing on the essential costs associated with developing and implementing an online scheduling portal.
-
-### Budget Allocation for Online Scheduling Portal
-
-| Category                       | Description                                               | Estimated Cost (USD)   | Percentage of Total Budget |
-|--------------------------------|-----------------------------------------------------------|------------------------|-----------------------------|
-| **Software Development**       | Custom portal design and development                      | $100,000               | 50%                        |
-| **Hardware Acquisition**       | Servers and infrastructure for hosting the portal         | $20,000                | 10%                        |
-| **Software Licensing**         | Third-party software for integration (e.g., databases)    | $30,000                | 15%                        |
-| **Testing and Quality Assurance** | Ensuring the portal runs smoothly on all devices       | $20,000                | 10%                        |
-| **Training**                   | Training staff to use and manage the portal               | $10,000                | 5%                          |
-| **Marketing and Communication** | Promoting the new portal to patients                      | $10,000                | 5%                          |
-| **Contingency Fund**           | Reserved for unexpected expenses                          | $10,000                | 5%                          |
-| **Total**                      |                                                           | **$200,000**           | 100%                       |
-
----
-
-
-### Streamlined Operational Plan (6-Month Timeline)
-
-| **Date/Milestone**       | **Task/Activity**                        | **Responsibility**        |
-|--------------------------|-----------------------------------------|---------------------------|
-| **May 2024**             | Project Kick-off & System Selection     | Project Manager, IT Manager|
-| **June 2024**            | System Implementation & Staff Training  | IT Team, HR Manager       |
-| **July 2024**            | Soft Launch & Marketing Campaign        | Operations Manager, Marketing Team |
-| **August 2024**          | Full System Go-Live                     | Project Team              |
-| **September 2024**       | Process Review & Customer Feedback      | Operations Manager, Customer Service Team |
-| **October 2024**         | Analysis & Adjustment Phase             | All Departments           |
-
-This operational plan compresses the essential tasks into a 6-month timeline, from system selection to final adjustments post-launch, ensuring rapid deployment and efficient use of resources. Each phase has been streamlined to focus on critical activities, aligning with strategic business goals and rapid execution.
-
-
----
+## System Design
 
 ```mermaid
 graph LR;
@@ -103,3 +83,24 @@ graph LR;
 
 
 
+
+
+
+---
+
+
+# 📝 Changelog
+- [2024.04.15] Added initial project proposal
+- [2024.04.20] Completed data collection and cleaning
+- [2024.04.21] Conducted exploratory data analysis (EDA) and identified key insights
+- [2024.04.26] Designed the online appointment scheduler system architecture
+- [2024.04.28] Finalized the project details
+
+
+---
+
+# 📢 Disclaimer
+This repository is for personal/research/non-commercial use only.
+
+---
+Copyright © University of California, Berkeley, Faculty of Engineering, Department of Industrial Engineering and Operation Research, [Hin Chi Kwok](https://github.com/HaleyKwok). All rights reserved.
